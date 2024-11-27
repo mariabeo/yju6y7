@@ -15,4 +15,6 @@ jobs:
         uses: microsoft/setup-msbuild@v2
       - name: Checkout
         uses: actions/checkout@v4.2.2
+      - name: HOLA
+        run: echo Hello 
     
